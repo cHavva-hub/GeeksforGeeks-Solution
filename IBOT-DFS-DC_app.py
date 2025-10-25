@@ -22,6 +22,6 @@ class Solution:
                 if not visited[x]:
                     res.append(x)
                     visited[x] = True
-                    dfs(x)
+                    dfs2(x)
         dfs2(src)
         return res
